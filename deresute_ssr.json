@@ -16,3 +16,21 @@
 	"name" : "［ステージオブマジック］本田未央",
 	"imgurl" : "http://localhost:3000/img/03.jpg"
 }
+{
+	"_id" : ObjectId("591b1f249ed21cf0c5ade097"),
+	"charaid" : 4,
+	"name" : "［ぐうたら王国］双葉杏",
+	"imgurl" : "http://localhost:3000/img/04.jpg"
+}
+{
+	"_id" : ObjectId("591b1f249ed21cf0c5ade098"),
+	"charaid" : 5,
+	"name" : "［薔薇の黒姫］神崎蘭子",
+	"imgurl" : "http://localhost:3000/img/05.jpg"
+}
+{
+	"_id" : ObjectId("591b1f249ed21cf0c5ade099"),
+	"charaid" : 6,
+	"name" : "［グレイトプレゼント］諸星きらり",
+	"imgurl" : "http://localhost:3000/img/06.jpg"
+}
