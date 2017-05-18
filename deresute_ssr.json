@@ -1,0 +1,18 @@
+{
+	"_id" : ObjectId("591b15a59ed21cf0c5ade093"),
+	"charaid" : 1,
+	"name" : "［ステージオブマジック］島村卯月",
+	"imgurl" : "http://localhost:3000/img/01.jpg"
+}
+{
+	"_id" : ObjectId("591b1eb59ed21cf0c5ade095"),
+	"charaid" : 2,
+	"name" : "［ステージオブマジック］渋谷凛",
+	"imgurl" : "http://localhost:3000/img/02.jpg"
+}
+{
+	"_id" : ObjectId("591b1f249ed21cf0c5ade096"),
+	"charaid" : 3,
+	"name" : "［ステージオブマジック］本田未央",
+	"imgurl" : "http://localhost:3000/img/03.jpg"
+}
