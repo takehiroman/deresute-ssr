@@ -5,7 +5,7 @@ import Character from './character'
 
 const app = express()
 const port = 3001
-const dbUrl = 'mongodb://localhost/deresute4'
+const dbUrl = 'mongodb://localhost/deresute'
 
 app.use(bodyParser.urlencoded({ extended:true }))
 app.use(bodyParser.json())
