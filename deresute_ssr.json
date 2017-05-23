@@ -1,36 +1,201 @@
 {
-	"_id" : ObjectId("591b15a59ed21cf0c5ade093"),
 	"charaid" : 1,
 	"name" : "［ステージオブマジック］島村卯月",
-	"imgurl" : "http://localhost:3000/img/01.jpg"
+	"imgurl" : "http://localhost:3000/images/001.png"
 }
 {
-	"_id" : ObjectId("591b1eb59ed21cf0c5ade095"),
 	"charaid" : 2,
 	"name" : "［ステージオブマジック］渋谷凛",
-	"imgurl" : "http://localhost:3000/img/02.jpg"
+	"imgurl" : "http://localhost:3000/images/002.png"
 }
 {
-	"_id" : ObjectId("591b1f249ed21cf0c5ade096"),
 	"charaid" : 3,
 	"name" : "［ステージオブマジック］本田未央",
-	"imgurl" : "http://localhost:3000/img/03.jpg"
+	"imgurl" : "http://localhost:3000/images/003.png"
 }
 {
-	"_id" : ObjectId("591b1f249ed21cf0c5ade097"),
 	"charaid" : 4,
 	"name" : "［ぐうたら王国］双葉杏",
-	"imgurl" : "http://localhost:3000/img/04.jpg"
+	"imgurl" : "http://localhost:3000/images/004.png"
 }
 {
-	"_id" : ObjectId("591b1f249ed21cf0c5ade098"),
 	"charaid" : 5,
 	"name" : "［薔薇の黒姫］神崎蘭子",
-	"imgurl" : "http://localhost:3000/img/05.jpg"
+	"imgurl" : "http://localhost:3000/images/005.png"
 }
 {
-	"_id" : ObjectId("591b1f249ed21cf0c5ade099"),
 	"charaid" : 6,
 	"name" : "［グレイトプレゼント］諸星きらり",
-	"imgurl" : "http://localhost:3000/img/06.jpg"
+	"imgurl" : "http://localhost:3000/images/006.png"
 }
+{
+	"charaid" : 7,
+	"name" : "［キャットパーティー］前川みく",
+	"imgurl" : "http://localhost:3000/images/007.png"
+}
+{
+	"charaid" : 8,
+	"name" : "［パンプキンパーティー］十時愛梨",
+	"imgurl" : "http://localhost:3000/images/008.png"
+}
+{
+	"charaid" : 9,
+	"name" : "［ホワイトウィッチ］三村かな子",
+	"imgurl" : "http://localhost:3000/images/009.png"
+}
+{
+	"charaid" : 10,
+	"name" : "［ノーブルヴィーナス］新田美波",
+	"imgurl" : "http://localhost:3000/images/010.png"
+}
+{
+	"charaid" : 11,
+	"name" : "［夢色クローバー］緒方智絵里",
+	"imgurl" : "http://localhost:3000/images/011.png"
+}
+{
+	"charaid" : 12,
+	"name" : "［ヒート＆ビート］多田李衣菜",
+	"imgurl" : "http://localhost:3000/images/012.png"
+}
+{
+	"charaid" : 13,
+	"name" : "［ブライトメモリーズ］鷺沢文香",
+	"imgurl" : "http://localhost:3000/images/013.png"
+}
+{
+	"charaid" : 14,
+	"name" : "［キラデコ☆パレード］城ヶ崎莉嘉",
+	"imgurl" : "http://localhost:3000/images/014.png"
+}
+{
+	"charaid" : 15,
+	"name" : "［クリスタルスノー］アナスタシア",
+	"imgurl" : "http://localhost:3000/images/015.png"
+}
+{
+	"charaid" : 16,
+	"name" : "［バーニングプレゼント］日野茜",
+	"imgurl" : "http://localhost:3000/images/016.png"
+}
+{
+	"charaid" : 17,
+	"name" : "［自称・カンペキ］輿水幸子",
+	"imgurl" : "http://localhost:3000/images/017.png"
+}
+{
+	"charaid" : 18,
+	"name" : "［ともだちたくさん］市原仁奈",
+	"imgurl" : "http://localhost:3000/images/018.png"
+}
+{
+	"charaid" : 19,
+	"name" : "［プリプリウサミン］安部菜々",
+	"imgurl" : "http://localhost:3000/images/019.png"
+}
+{
+	"charaid" : 20,
+	"name" : "［ハート★オーバーフロー］城ヶ崎美嘉",
+	"imgurl" : "http://localhost:3000/images/020.png"
+}
+{
+	"charaid" : 21,
+	"name" : "［エンドレスナイト］速水奏",
+	"imgurl" : "http://localhost:3000/images/021.png"
+}
+{
+	"charaid" : 22,
+	"name" : "［フルスイング☆エール］姫川友紀",
+	"imgurl" : "http://localhost:3000/images/022.png"
+}
+{
+	"charaid" : 23,
+	"name" : "［フィールマイハート］佐久間まゆ",
+	"imgurl" : "http://localhost:3000/images/023.png"
+}
+{
+	"charaid" : 24,
+	"name" : "［ハッピーホイップ］赤城みりあ",
+	"imgurl" : "http://localhost:3000/images/024.png"
+}
+{
+	"charaid" : 25,
+	"name" : "［ラグジュアリーメモリー］川島瑞樹",
+	"imgurl" : "http://localhost:3000/images/025.png"
+}
+{
+	"charaid" : 26,
+	"name" : "［ミスティックエリクシル］一ノ瀬志希",
+	"imgurl" : "http://localhost:3000/images/026.png"
+}
+{
+	"charaid" : 27,
+	"name" : "［オーバー・ザ・レインボー］神谷奈緒",
+	"imgurl" : "http://localhost:3000/images/027.png"
+}
+{
+	"charaid" : 28,
+	"name" : "［てづくりのしあわせ］高森藍子",
+	"imgurl" : "http://localhost:3000/images/028.png"
+}
+{
+	"charaid" : 29,
+	"name" : "［夜風の誘い］高垣楓",
+	"imgurl" : "http://localhost:3000/images/029.png"
+}
+{
+	"charaid" : 30,
+	"name" : "［ユースフルロマンス］小日向美穂",
+	"imgurl" : "http://localhost:3000/images/030.png"
+}
+{
+	"charaid" : 31,
+	"name" : "［煌めきのひととき］北条加蓮",
+	"imgurl" : "http://localhost:3000/images/031.png"
+}
+{
+	"charaid" : 32,
+	"name" : "［マッシュアップ★ボルテージ］星輝子",
+	"imgurl" : "http://localhost:3000/images/032.png"
+}
+{
+	"charaid" : 33,
+	"name" : "［花舞うまほろば］小早川紗枝",
+	"imgurl" : "http://localhost:3000/images/033.png"
+}
+{
+	"charaid" : 34,
+	"name" : "［ローズフルール］櫻井桃華",
+	"imgurl" : "http://localhost:3000/images/034.png"
+}
+{
+	"charaid" : 35,
+	"name" : "［拳火上等］向井拓海",
+	"imgurl" : "http://localhost:3000/images/035.png"
+}
+{
+	"charaid" : 36,
+	"name" : "［《偶像》のフラグメント］二宮飛鳥",
+	"imgurl" : "http://localhost:3000/images/036.png"
+}
+{
+	"charaid" : 37,
+	"name" : "［夢みるプリンセス］喜多日菜子",
+	"imgurl" : "http://localhost:3000/images/037.png"
+}
+{
+	"charaid" : 38,
+	"name" : "［あったかハート］五十嵐響子",
+	"imgurl" : "http://localhost:3000/images/038.png"
+}
+{
+	"charaid" : 39,
+	"name" : "［エモーショナルビート］木村夏樹",
+	"imgurl" : "http://localhost:3000/images/039.png"
+}
+{
+	"charaid" : 40,
+	"name" : "［はじめての表情］橘ありす",
+	"imgurl" : "http://localhost:3000/images/040.png"
+}
+

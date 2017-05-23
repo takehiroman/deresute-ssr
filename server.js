@@ -5,7 +5,7 @@ import Character from './character'
 
 const app = express()
 const port = 3001
-const dbUrl = 'mongodb://localhost/deresute'
+const dbUrl = 'mongodb://localhost/deresute4'
 
 app.use(bodyParser.urlencoded({ extended:true }))
 app.use(bodyParser.json())
@@ -15,10 +15,10 @@ mongoose.connect(dbUrl,dbErr => {
     else console.log('db connect')
 
        app.get('/api/characters', (request, response) => {
-     Character.find({}, (err, characterArray) => {  // 取得したドキュメントをクライアント側と同じくcharacterArrayと命名
+     Character.find({},(err, characterArray) => {  // 取得したドキュメントをクライアント側と同じくcharacterArrayと命名
        if (err) response.status(500).send()
        else response.status(200).send(characterArray)  // characterArrayをレスポンスとして送り返す
-     })
+     }).sort(({'charaid':1}))
    })
 
     app.listen(port,err => {
