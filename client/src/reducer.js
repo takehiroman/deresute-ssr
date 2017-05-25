@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import {
-    REQUEST_DATA,RECEIVE_DATA_SUCCESS,RECEIVE_DATA_FAILD
+    COUNTUP,COUNTDOWN,REQUEST_DATA,RECEIVE_DATA_SUCCESS,RECEIVE_DATA_FAILD
 } from './action'
 
 const initialState = {
@@ -8,6 +8,27 @@ const initialState = {
         isFetching: false,
         characterArray: [],
     },
+    counters:{
+        count:0,
+        check: false,
+    }
+}
+const countReducer = (state = initialState.counters,action) => {
+    let count = state.count;
+    switch(action.type){
+        case COUNTUP:
+            return {
+                count: count + action.count,
+                check:true,
+            };
+        case COUNTDOWN:
+            return{
+                count: count + action.count,
+                check:false
+            }
+        default:
+            return state;
+    }
 }
 
 const charactersReducer = (state = initialState.characters,action) => {
@@ -35,6 +56,8 @@ const charactersReducer = (state = initialState.characters,action) => {
 
 const rootReducer = combineReducers({
   characters: charactersReducer,
+  counters : countReducer,
+
 })
 
 export default rootReducer

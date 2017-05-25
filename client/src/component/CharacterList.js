@@ -1,18 +1,24 @@
 import React from 'react'
 import axios from 'axios'
-import { requestData,receiveDataSuccess,receiveDataFailed } from '../action'
+import { requestData,receiveDataSuccess,receiveDataFailed,countup,countdown } from '../action'
 import Checkbox from 'material-ui/Checkbox';
-import { Col } from 'react-bootstrap';
+import { Image } from 'material-ui-image'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import {GridList, GridTile} from 'material-ui/GridList';
+
 
 const styles = {
-    block: {
-        maxwidth: 275,
-    }
-}
+
+  gridList: {
+    width: 900,
+    height: 1000,
+    overflowY: 'auto',
+  },
+};
 
 const CharacterList = ({ store }) => {
     const { isFetching,characterArray } = store.getState().characters
+    const { count } = store.getState().counters
 
     const handleFetchData = () => {
         store.dispatch(requestData())
@@ -27,22 +33,34 @@ const CharacterList = ({ store }) => {
         })
     }
 
+    const countData = () => {
+        store.dispatch(countup())
+    }
+
     return (
     <MuiThemeProvider>
-    <div>
+    <div >
     {
         isFetching
         ? <h2>now loading</h2>
-        :<div>
+        :<div >
                 <button onClick={() => handleFetchData()}>fetch</button>
-            <ul>
-                {characterArray.map(character => (
-                    <Col md={4} key={character._id}>
-                    <Checkbox style={styles.checkbox} label={`${character.name}`} />
-                    <img src={character.imgurl} alt="" width="270" height="160" />
-                    </Col>
-                ))}
-            </ul>
+                <p>あなたは{count}枚のSSRを所持しています</p>
+                    <GridList
+                     cellHeight={180}
+                     style={styles.gridList}
+                     cols={3}
+                     >
+                        {characterArray.map(character => (
+                        <GridTile
+                         actionIcon={<Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}} onClick={() => countData()} />}
+                         title={character.name}
+                         key={character._id} 
+                         >
+                            <Image src={character.imgurl} alt=""  /> 
+                        </GridTile>
+                    ))}
+                </GridList>
         </div>
         }
         </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CharacterList from './CharacterList'
-import { Grid,Row } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -12,11 +11,7 @@ class App extends Component {
         <p className="App-intro">
           デレステのSSR所持率出すやつ
         </p>
-        <Grid>
-          <Row>
           <CharacterList store={this.props.store} />
-          </Row>
-        </Grid>
       </div>
     );
   }
