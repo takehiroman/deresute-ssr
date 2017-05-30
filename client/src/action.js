@@ -16,9 +16,9 @@ export const receiveDataFailed = () => ({
 })
 export const countup = () => ({
   type: COUNTUP,
-  count: 1,
+  count:1
 })
 export const countdown = () => ({
   type: COUNTDOWN,
-  count: -1,
+  count:-1
 })

@@ -10,7 +10,7 @@ const initialState = {
     },
     counters:{
         count:0,
-        check: false,
+        check:false,
     }
 }
 const countReducer = (state = initialState.counters,action) => {
@@ -18,13 +18,15 @@ const countReducer = (state = initialState.counters,action) => {
     switch(action.type){
         case COUNTUP:
             return {
-                count: count + action.count,
+                ...state,
                 check:true,
+                count:count + action.count
             };
         case COUNTDOWN:
             return{
-                count: count + action.count,
-                check:false
+                ...state,
+                check:false,
+                count:count + action.count
             }
         default:
             return state;
@@ -57,7 +59,6 @@ const charactersReducer = (state = initialState.characters,action) => {
 const rootReducer = combineReducers({
   characters: charactersReducer,
   counters : countReducer,
-
 })
 
 export default rootReducer

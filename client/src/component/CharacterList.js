@@ -11,14 +11,15 @@ const styles = {
 
   gridList: {
     width: 900,
-    height: 1000,
+    height: 1220,
     overflowY: 'auto',
-  },
+  }
+  
 };
 
 const CharacterList = ({ store }) => {
     const { isFetching,characterArray } = store.getState().characters
-    const { count } = store.getState().counters
+    const { count,check } = store.getState().counters
 
     const handleFetchData = () => {
         store.dispatch(requestData())
@@ -33,10 +34,21 @@ const CharacterList = ({ store }) => {
         })
     }
 
-    const countData = () => {
-        store.dispatch(countup())
+    const countUp = () => {
+        const elems = document.getElementsByTagName("input");
+        for(let i = 0;i <= characterArray.length;i++){
+            if(elems[i].checked === true){
+                store.dispatch(countup())
+                break;
+            }
+            else if(elems[i].checked === false){
+                store.dispatch(countdown())
+                break;
+            }
+        }
     }
 
+    
     return (
     <MuiThemeProvider>
     <div >
@@ -45,15 +57,15 @@ const CharacterList = ({ store }) => {
         ? <h2>now loading</h2>
         :<div >
                 <button onClick={() => handleFetchData()}>fetch</button>
-                <p>あなたは{count}枚のSSRを所持しています</p>
+                <p>あなたは{Math.round(count/characterArray.length*1000)/10}%({count}/{characterArray.length})%のSSRを所持しています</p>
                     <GridList
-                     cellHeight={180}
+                     cellHeight={200}
                      style={styles.gridList}
                      cols={3}
                      >
                         {characterArray.map(character => (
                         <GridTile
-                         actionIcon={<Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}} onClick={() => countData()} />}
+                         actionIcon={<Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}}  onCheck={() => countUp()} />}
                          title={character.name}
                          key={character._id} 
                          >
