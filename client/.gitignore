@@ -10,7 +10,7 @@
 /build
 
 # images
-public/images/*
+*.png
 
 # misc
 .DS_Store
