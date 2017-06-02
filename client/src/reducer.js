@@ -10,7 +10,6 @@ const initialState = {
     },
     counters:{
         count:0,
-        check:false,
     }
 }
 const countReducer = (state = initialState.counters,action) => {
@@ -19,13 +18,11 @@ const countReducer = (state = initialState.counters,action) => {
         case COUNTUP:
             return {
                 ...state,
-                check:true,
                 count:count + action.count
             };
         case COUNTDOWN:
             return{
                 ...state,
-                check:false,
                 count:count + action.count
             }
         default:

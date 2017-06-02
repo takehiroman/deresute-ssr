@@ -5,13 +5,14 @@ import Checkbox from 'material-ui/Checkbox';
 import { Image } from 'material-ui-image'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {GridList, GridTile} from 'material-ui/GridList';
+import $ from 'jquery';
 
 
 const styles = {
 
   gridList: {
-    width: 900,
-    height: 1220,
+    width: 1200,
+    height: 620,
     overflowY: 'auto',
   }
   
@@ -19,7 +20,7 @@ const styles = {
 
 const CharacterList = ({ store }) => {
     const { isFetching,characterArray } = store.getState().characters
-    const { count,check } = store.getState().counters
+    const total = $("input:checked").length;
 
     const handleFetchData = () => {
         store.dispatch(requestData())
@@ -34,19 +35,14 @@ const CharacterList = ({ store }) => {
         })
     }
 
-    const countUp = () => {
-        const elems = document.getElementsByTagName("input");
-        for(let i = 0;i <= characterArray.length;i++){
-            if(elems[i].checked === true){
-                store.dispatch(countup())
-                break;
-            }
-            else if(elems[i].checked === false){
-                store.dispatch(countdown())
-                break;
-            }
+    const countTotal = () => {
+        const elems = document.getElementsByTagName('input');
+        for(let id = 0;id < elems.length;id++){
+        elems[id].checked?store.dispatch(countup()):store.dispatch(countdown())
         }
     }
+
+
 
     
     return (
@@ -57,15 +53,15 @@ const CharacterList = ({ store }) => {
         ? <h2>now loading</h2>
         :<div >
                 <button onClick={() => handleFetchData()}>fetch</button>
-                <p>あなたは{Math.round(count/characterArray.length*1000)/10}%({count}/{characterArray.length})%のSSRを所持しています</p>
+                <p>あなたは{Math.round(total/characterArray.length*1000)/10}%({total}/{characterArray.length})%のSSRを所持しています</p>
                     <GridList
                      cellHeight={200}
                      style={styles.gridList}
-                     cols={3}
+                     cols={4}
                      >
                         {characterArray.map(character => (
                         <GridTile
-                         actionIcon={<Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}}  onCheck={() => countUp()} />}
+                         actionIcon={ <Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}} value={character.charaid} onTouchTap={() => countTotal()} onClick={() => countTotal()}/>}
                          title={character.name}
                          key={character._id} 
                          >

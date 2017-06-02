@@ -563,3 +563,13 @@
 	"name" : "［こぶし・紅］村上巴",
 	"imgurl" : "http://localhost:3000/images/113.png"
 }
+{
+	"charaid" : 114,
+	"name" : "［エターナルブルーム］渋谷凛",
+	"imgurl" : "http://localhost:3000/images/114.png"
+}
+{
+	"charaid" : 115,
+	"name" : "［えにしの結び手］道明寺歌鈴",
+	"imgurl" : "http://localhost:3000/images/115.png"
+}

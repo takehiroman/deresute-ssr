@@ -1,6 +1,6 @@
 # deresute-ssr
 
-React/redux,Express,MongoDBで作成しているデレステのSSR所持率を表示するwebアプリです。
+React/Redux,Express,MongoDBで作成しているデレステのSSR所持率を表示するwebアプリです。
 
 ### 実行方法  
 * データベースインポート
