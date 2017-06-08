@@ -7,6 +7,7 @@ const CharacterSchema = new mongoose.Schema({
     charaid: Number,
     name: String,
     imgurl:String,
+    type:String
 })
 
 //モデルの作成

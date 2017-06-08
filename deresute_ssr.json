@@ -559,7 +559,8 @@
 {
 	"charaid" : 94,
 	"name" : "［重ねた花びら］相葉夕美",
-	"imgurl" : "http://localhost:3000/images/094.png"
+	"imgurl" : "http://localhost:3000/images/094.png",
+	"type":"passion"
 }
 {
 	"charaid" : 95,
