@@ -9,13 +9,11 @@ import $ from 'jquery';
 
 
 const styles = {
-
   gridList: {
     width: 1200,
     height: 620,
     overflowY: 'auto',
   }
-  
 };
 
 const CharacterList = ({ store }) => {

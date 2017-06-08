@@ -1,467 +1,560 @@
 {
 	"charaid" : 1,
 	"name" : "［ステージオブマジック］島村卯月",
-	"imgurl" : "http://localhost:3000/images/001.png"
+	"imgurl" : "http://localhost:3000/images/001.png",
+	"type":"cute"
 }
 {
 	"charaid" : 2,
 	"name" : "［ステージオブマジック］渋谷凛",
-	"imgurl" : "http://localhost:3000/images/002.png"
+	"imgurl" : "http://localhost:3000/images/002.png",
+	"type":"cool"
 }
 {
 	"charaid" : 3,
 	"name" : "［ステージオブマジック］本田未央",
-	"imgurl" : "http://localhost:3000/images/003.png"
+	"imgurl" : "http://localhost:3000/images/003.png",
+	"type":"passion"
 }
 {
 	"charaid" : 4,
 	"name" : "［ぐうたら王国］双葉杏",
-	"imgurl" : "http://localhost:3000/images/004.png"
+	"imgurl" : "http://localhost:3000/images/004.png",
+	"type":"cute"
 }
 {
 	"charaid" : 5,
 	"name" : "［薔薇の黒姫］神崎蘭子",
-	"imgurl" : "http://localhost:3000/images/005.png"
+	"imgurl" : "http://localhost:3000/images/005.png",
+	"type":"cool"
 }
 {
 	"charaid" : 6,
 	"name" : "［グレイトプレゼント］諸星きらり",
-	"imgurl" : "http://localhost:3000/images/006.png"
+	"imgurl" : "http://localhost:3000/images/006.png",
+	"type":"passion"
 }
 {
 	"charaid" : 7,
 	"name" : "［キャットパーティー］前川みく",
-	"imgurl" : "http://localhost:3000/images/007.png"
+	"imgurl" : "http://localhost:3000/images/007.png",
+	"type":"cute"
 }
 {
 	"charaid" : 8,
 	"name" : "［パンプキンパーティー］十時愛梨",
-	"imgurl" : "http://localhost:3000/images/008.png"
+	"imgurl" : "http://localhost:3000/images/008.png",
+	"type":"passion"
 }
 {
 	"charaid" : 9,
 	"name" : "［ホワイトウィッチ］三村かな子",
-	"imgurl" : "http://localhost:3000/images/009.png"
+	"imgurl" : "http://localhost:3000/images/009.png",
+	"type":"cute"
 }
 {
 	"charaid" : 10,
 	"name" : "［ノーブルヴィーナス］新田美波",
-	"imgurl" : "http://localhost:3000/images/010.png"
+	"imgurl" : "http://localhost:3000/images/010.png",
+	"type":"cool"
 }
 {
 	"charaid" : 11,
 	"name" : "［夢色クローバー］緒方智絵里",
-	"imgurl" : "http://localhost:3000/images/011.png"
+	"imgurl" : "http://localhost:3000/images/011.png",
+	"type":"cute"
 }
 {
 	"charaid" : 12,
 	"name" : "［ヒート＆ビート］多田李衣菜",
-	"imgurl" : "http://localhost:3000/images/012.png"
+	"imgurl" : "http://localhost:3000/images/012.png",
+	"type":"cool"
 }
 {
 	"charaid" : 13,
 	"name" : "［ブライトメモリーズ］鷺沢文香",
-	"imgurl" : "http://localhost:3000/images/013.png"
+	"imgurl" : "http://localhost:3000/images/013.png",
+	"type":"cool"
 }
 {
 	"charaid" : 14,
 	"name" : "［キラデコ☆パレード］城ヶ崎莉嘉",
-	"imgurl" : "http://localhost:3000/images/014.png"
+	"imgurl" : "http://localhost:3000/images/014.png",
+	"type":"passion"
 }
 {
 	"charaid" : 15,
 	"name" : "［クリスタルスノー］アナスタシア",
-	"imgurl" : "http://localhost:3000/images/015.png"
+	"imgurl" : "http://localhost:3000/images/015.png",
+	"type":"cool"
 }
 {
 	"charaid" : 16,
 	"name" : "［バーニングプレゼント］日野茜",
-	"imgurl" : "http://localhost:3000/images/016.png"
+	"imgurl" : "http://localhost:3000/images/016.png",
+	"type":"passion"
 }
 {
 	"charaid" : 17,
 	"name" : "［自称・カンペキ］輿水幸子",
-	"imgurl" : "http://localhost:3000/images/017.png"
+	"imgurl" : "http://localhost:3000/images/017.png",
+	"type":"cute"
 }
 {
 	"charaid" : 18,
 	"name" : "［ともだちたくさん］市原仁奈",
-	"imgurl" : "http://localhost:3000/images/018.png"
+	"imgurl" : "http://localhost:3000/images/018.png",
+	"type":"passion"
 }
 {
 	"charaid" : 19,
 	"name" : "［プリプリウサミン］安部菜々",
-	"imgurl" : "http://localhost:3000/images/019.png"
+	"imgurl" : "http://localhost:3000/images/019.png",
+	"type":"cute"
 }
 {
 	"charaid" : 20,
 	"name" : "［ハート★オーバーフロー］城ヶ崎美嘉",
-	"imgurl" : "http://localhost:3000/images/020.png"
+	"imgurl" : "http://localhost:3000/images/020.png",
+	"type":"passion"
 }
 {
 	"charaid" : 21,
 	"name" : "［エンドレスナイト］速水奏",
-	"imgurl" : "http://localhost:3000/images/021.png"
+	"imgurl" : "http://localhost:3000/images/021.png",
+	"type":"cool"
 }
 {
 	"charaid" : 22,
 	"name" : "［フルスイング☆エール］姫川友紀",
-	"imgurl" : "http://localhost:3000/images/022.png"
+	"imgurl" : "http://localhost:3000/images/022.png",
+	"type":"passion"
 }
 {
 	"charaid" : 23,
 	"name" : "［フィールマイハート］佐久間まゆ",
-	"imgurl" : "http://localhost:3000/images/023.png"
+	"imgurl" : "http://localhost:3000/images/023.png",
+	"type":"cute"
 }
 {
 	"charaid" : 24,
 	"name" : "［ハッピーホイップ］赤城みりあ",
-	"imgurl" : "http://localhost:3000/images/024.png"
+	"imgurl" : "http://localhost:3000/images/024.png",
+	"type":"passion"
 }
 {
 	"charaid" : 25,
 	"name" : "［ラグジュアリーメモリー］川島瑞樹",
-	"imgurl" : "http://localhost:3000/images/025.png"
+	"imgurl" : "http://localhost:3000/images/025.png",
+	"type":"cool"
 }
 {
 	"charaid" : 26,
 	"name" : "［ミスティックエリクシル］一ノ瀬志希",
-	"imgurl" : "http://localhost:3000/images/026.png"
+	"imgurl" : "http://localhost:3000/images/026.png",
+	"type":"cute"
 }
 {
 	"charaid" : 27,
 	"name" : "［オーバー・ザ・レインボー］神谷奈緒",
-	"imgurl" : "http://localhost:3000/images/027.png"
+	"imgurl" : "http://localhost:3000/images/027.png",
+	"type":"cool"
 }
 {
 	"charaid" : 28,
 	"name" : "［てづくりのしあわせ］高森藍子",
-	"imgurl" : "http://localhost:3000/images/028.png"
+	"imgurl" : "http://localhost:3000/images/028.png",
+	"type":"passion"
 }
 {
 	"charaid" : 29,
 	"name" : "［夜風の誘い］高垣楓",
-	"imgurl" : "http://localhost:3000/images/029.png"
+	"imgurl" : "http://localhost:3000/images/029.png",
+	"type":"cool"
 }
 {
 	"charaid" : 30,
 	"name" : "［ユースフルロマンス］小日向美穂",
-	"imgurl" : "http://localhost:3000/images/030.png"
+	"imgurl" : "http://localhost:3000/images/030.png",
+	"type":"cute"
 }
 {
 	"charaid" : 31,
 	"name" : "［煌めきのひととき］北条加蓮",
-	"imgurl" : "http://localhost:3000/images/031.png"
+	"imgurl" : "http://localhost:3000/images/031.png",
+	"type":"cool"
 }
 {
 	"charaid" : 32,
 	"name" : "［マッシュアップ★ボルテージ］星輝子",
-	"imgurl" : "http://localhost:3000/images/032.png"
+	"imgurl" : "http://localhost:3000/images/032.png",
+	"type":"passion"
 }
 {
 	"charaid" : 33,
 	"name" : "［花舞うまほろば］小早川紗枝",
-	"imgurl" : "http://localhost:3000/images/033.png"
+	"imgurl" : "http://localhost:3000/images/033.png",
+	"type":"cute"
 }
 {
 	"charaid" : 34,
 	"name" : "［ローズフルール］櫻井桃華",
-	"imgurl" : "http://localhost:3000/images/034.png"
+	"imgurl" : "http://localhost:3000/images/034.png",
+	"type":"cute"
 }
 {
 	"charaid" : 35,
 	"name" : "［拳火上等］向井拓海",
-	"imgurl" : "http://localhost:3000/images/035.png"
+	"imgurl" : "http://localhost:3000/images/035.png",
+	"type":"passion"
 }
 {
 	"charaid" : 36,
 	"name" : "［《偶像》のフラグメント］二宮飛鳥",
-	"imgurl" : "http://localhost:3000/images/036.png"
+	"imgurl" : "http://localhost:3000/images/036.png",
+	"type":"cool"
 }
 {
 	"charaid" : 37,
 	"name" : "［夢みるプリンセス］喜多日菜子",
-	"imgurl" : "http://localhost:3000/images/037.png"
+	"imgurl" : "http://localhost:3000/images/037.png",
+	"type":"passion"
 }
 {
 	"charaid" : 38,
 	"name" : "［あったかハート］五十嵐響子",
-	"imgurl" : "http://localhost:3000/images/038.png"
+	"imgurl" : "http://localhost:3000/images/038.png",
+	"type":"cute"
 }
 {
 	"charaid" : 39,
 	"name" : "［エモーショナルビート］木村夏樹",
-	"imgurl" : "http://localhost:3000/images/039.png"
+	"imgurl" : "http://localhost:3000/images/039.png",
+	"type":"passion"
 }
 {
 	"charaid" : 40,
 	"name" : "［はじめての表情］橘ありす",
-	"imgurl" : "http://localhost:3000/images/040.png"
+	"imgurl" : "http://localhost:3000/images/040.png",
+	"type":"cool"
 }
 {
 	"charaid" : 41,
 	"name" : "［センリツノヨル］白坂小梅",
-	"imgurl" : "http://localhost:3000/images/041.png"
+	"imgurl" : "http://localhost:3000/images/041.png",
+	"type":"cool"
 }
 {
 	"charaid" : 42,
 	"name" : "［アベニュー・モード］宮本フレデリカ",
-	"imgurl" : "http://localhost:3000/images/042.png"
+	"imgurl" : "http://localhost:3000/images/042.png",
+	"type":"cute"
 }
 {
 	"charaid" : 43,
 	"name" : "［わだつみの導き手］依田芳乃",
-	"imgurl" : "http://localhost:3000/images/043.png"
+	"imgurl" : "http://localhost:3000/images/043.png",
+	"type":"passion"
 }
 {
 	"charaid" : 44,
 	"name" : "［運命の待ち人］神崎蘭子",
-	"imgurl" : "http://localhost:3000/images/044.png"
+	"imgurl" : "http://localhost:3000/images/044.png",
+	"type":"cool"
 }
 {
 	"charaid" : 45,
 	"name" : "［ドリーミンブライド］前川みく",
-	"imgurl" : "http://localhost:3000/images/045.png"
+	"imgurl" : "http://localhost:3000/images/045.png",
+	"type":"cute"
 }
 {
 	"charaid" : 46,
 	"name" : "［はつらつハーヴェスト］及川雫",
-	"imgurl" : "http://localhost:3000/images/046.png"
+	"imgurl" : "http://localhost:3000/images/046.png",
+	"type":"passion"
 }
 {
 	"charaid" : 47,
 	"name" : "［夜色の暁風］塩見周子",
-	"imgurl" : "http://localhost:3000/images/047.png"
+	"imgurl" : "http://localhost:3000/images/047.png",
+	"type":"cool"
 }
 {
 	"charaid" : 48,
 	"name" : "［マイ・フェアリーテイル］緒方智絵里",
-	"imgurl" : "http://localhost:3000/images/048.png"
+	"imgurl" : "http://localhost:3000/images/048.png",
+	"type":"cute"
 }
 {
 	"charaid" : 49,
 	"name" : "［ピースフルデイズ］島村卯月",
-	"imgurl" : "http://localhost:3000/images/049.png"
+	"imgurl" : "http://localhost:3000/images/049.png",
+	"type":"cute"
 }
 {
 	"charaid" : 50,
 	"name" : "［オーバー・マイセルフ］渋谷凛",
-	"imgurl" : "http://localhost:3000/images/050.png"
+	"imgurl" : "http://localhost:3000/images/050.png",
+	"type":"cool"
 }
 {
 	"charaid" : 51,
 	"name" : "［ワンダーエンターテイナー］本田未央",
-	"imgurl" : "http://localhost:3000/images/051.png"
+	"imgurl" : "http://localhost:3000/images/051.png",
+	"type":"passion"
 }
 {
 	"charaid" : 52,
 	"name" : "［なまけものフェアリー］双葉杏",
-	"imgurl" : "http://localhost:3000/images/052.png"
+	"imgurl" : "http://localhost:3000/images/052.png",
+	"type":"cute"
 }
 {
 	"charaid" : 53,
 	"name" : "［サマータイム☆ハイ］大槻唯",
-	"imgurl" : "http://localhost:3000/images/053.png"
+	"imgurl" : "http://localhost:3000/images/053.png",
+	"type":"passion"
 }
 {
 	"charaid" : 54,
 	"name" : "［ルージュクチュール］三船美優",
-	"imgurl" : "http://localhost:3000/images/054.png"
+	"imgurl" : "http://localhost:3000/images/054.png",
+	"type":"cool"
 }
 {
 	"charaid" : 55,
 	"name" : "［束ねた気持ち］相葉夕美",
-	"imgurl" : "http://localhost:3000/images/055.png"
+	"imgurl" : "http://localhost:3000/images/055.png",
+	"type":"passion"
 }
 {
 	"charaid" : 56,
 	"name" : "［スターティングデイズ］乙倉悠貴",
-	"imgurl" : "http://localhost:3000/images/056.png"
+	"imgurl" : "http://localhost:3000/images/056.png",
+	"type":"cute"
 }
 {
 	"charaid" : 57,
 	"name" : "［めろめろサマー］諸星きらり",
-	"imgurl" : "http://localhost:3000/images/057.png"
+	"imgurl" : "http://localhost:3000/images/057.png",
+	"type":"passion"
 }
 {
 	"charaid" : 58,
 	"name" : "［夏色の南風］新田美波",
-	"imgurl" : "http://localhost:3000/images/058.png"
+	"imgurl" : "http://localhost:3000/images/058.png",
+	"type":"cool"
 }
 {
 	"charaid" : 59,
 	"name" : "［メイク★インパクト］早坂美玲",
-	"imgurl" : "http://localhost:3000/images/059.png"
+	"imgurl" : "http://localhost:3000/images/059.png",
+	"type":"cute"
 }
 {
 	"charaid" : 60,
 	"name" : "［澄みきった世界］上条春菜",
-	"imgurl" : "http://localhost:3000/images/060.png"
+	"imgurl" : "http://localhost:3000/images/060.png",
+	"type":"cool"
 }
 {
 	"charaid" : 61,
 	"name" : "［カップオブラブ］十時愛梨",
-	"imgurl" : "http://localhost:3000/images/061.png"
+	"imgurl" : "http://localhost:3000/images/061.png",
+	"type":"passion"
 }
 {
 	"charaid" : 62,
 	"name" : "［密やかな饗宴］鷺沢文香",
-	"imgurl" : "http://localhost:3000/images/062.png"
+	"imgurl" : "http://localhost:3000/images/062.png",
+	"type":"cool"
 }
 {
 	"charaid" : 63,
 	"name" : "［インビテーション・ダイブ］一ノ瀬志希",
-	"imgurl" : "http://localhost:3000/images/063.png"
+	"imgurl" : "http://localhost:3000/images/063.png",
+	"type":"cute"
 }
 {
 	"charaid" : 64,
 	"name" : "［セーシュンエナジー］堀裕子",
-	"imgurl" : "http://localhost:3000/images/064.png"
+	"imgurl" : "http://localhost:3000/images/064.png",
+	"type":"passion"
 }
 {
 	"charaid" : 65,
 	"name" : "［星巡る物語］アナスタシア",
-	"imgurl" : "http://localhost:3000/images/065.png"
+	"imgurl" : "http://localhost:3000/images/065.png",
+	"type":"cool"
 }
 {
 	"charaid" : 66,
 	"name" : "［P.C.S］小日向美穂",
-	"imgurl" : "http://localhost:3000/images/066.png"
+	"imgurl" : "http://localhost:3000/images/066.png",
+	"type":"cute"
 }
 {
 	"charaid" : 67,
 	"name" : "［自称・スウィートヒロイン］輿水幸子",
-	"imgurl" : "http://localhost:3000/images/067.png"
+	"imgurl" : "http://localhost:3000/images/067.png",
+	"type":"cute"
 }
 {
 	"charaid" : 68,
 	"name" : "［茜色の彩り］高垣楓",
-	"imgurl" : "http://localhost:3000/images/068.png"
+	"imgurl" : "http://localhost:3000/images/068.png",
+	"type":"cool"
 }
 {
 	"charaid" : 69,
 	"name" : "［グロリアス★グロウ］城ヶ崎美嘉",
-	"imgurl" : "http://localhost:3000/images/069.png"
+	"imgurl" : "http://localhost:3000/images/069.png",
+	"type":"passion"
 }
 {
 	"charaid" : 70,
 	"name" : "［トリート・オア・トリート］佐久間まゆ",
-	"imgurl" : "http://localhost:3000/images/070.png"
+	"imgurl" : "http://localhost:3000/images/070.png",
+	"type":"cute"
 }
 {
 	"charaid" : 71,
 	"name" : "［ぱーりぃー★ひゃっはー］星輝子",
-	"imgurl" : "http://localhost:3000/images/071.png"
+	"imgurl" : "http://localhost:3000/images/071.png",
+	"type":"passion"
 }
 {
 	"charaid" : 72,
 	"name" : "［くのいちのいろは］浜口あやめ",
-	"imgurl" : "http://localhost:3000/images/072.png"
+	"imgurl" : "http://localhost:3000/images/072.png",
+	"type":"passion"
 }
 {
 	"charaid" : 73,
 	"name" : "［ただひとつの器］藤原肇",
-	"imgurl" : "http://localhost:3000/images/073.png"
+	"imgurl" : "http://localhost:3000/images/073.png",
+	"type":"cool"
 }
 {
 	"charaid" : 74,
 	"name" : "［ドルチェ・クラシカ］三村かな子",
-	"imgurl" : "http://localhost:3000/images/074.png"
+	"imgurl" : "http://localhost:3000/images/074.png",
+	"type":"cute"
 }
 {
 	"charaid" : 75,
 	"name" : "［ソング・フォー・ライフ］北条加蓮",
-	"imgurl" : "http://localhost:3000/images/075.png"
+	"imgurl" : "http://localhost:3000/images/075.png",
+	"type":"cool"
 }
 {
 	"charaid" : 76,
 	"name" : "［あたたかな居場所］高森藍子",
-	"imgurl" : "http://localhost:3000/images/076.png"
+	"imgurl" : "http://localhost:3000/images/076.png",
+	"type":"passion"
 }
 {
 	"charaid" : 77,
 	"name" : "［ディアマイレディ］櫻井桃華",
-	"imgurl" : "http://localhost:3000/images/077.png"
+	"imgurl" : "http://localhost:3000/images/077.png",
+	"type":"cute"
 }
 {
 	"charaid" : 78,
 	"name" : "［はぁとトゥハート］佐藤心",
-	"imgurl" : "http://localhost:3000/images/078.png"
+	"imgurl" : "http://localhost:3000/images/078.png",
+	"type":"passion"
 }
 {
 	"charaid" : 79,
 	"name" : "［森のものがたり］森久保乃々",
-	"imgurl" : "http://localhost:3000/images/079.png"
+	"imgurl" : "http://localhost:3000/images/079.png",
+	"type":"cool"
 }
 {
 	"charaid" : 80,
 	"name" : "［リュミエール・エトワール］宮本フレデリカ",
-	"imgurl" : "http://localhost:3000/images/080.png"
+	"imgurl" : "http://localhost:3000/images/080.png",
+	"type":"cute"
 }
 {
 	"charaid" : 81,
 	"name" : "［ドレスアップナイト］神谷奈緒",
-	"imgurl" : "http://localhost:3000/images/081.png"
+	"imgurl" : "http://localhost:3000/images/081.png",
+	"type":"cool"
 }
 {
 	"charaid" : 82,
 	"name" : "［ひまわりサニーデイ］龍崎薫",
-	"imgurl" : "http://localhost:3000/images/082.png"
+	"imgurl" : "http://localhost:3000/images/082.png",
+	"type":"passion"
 }
 {
 	"charaid" : 83,
 	"name" : "［エアリアルメロディア］水本ゆかり",
-	"imgurl" : "http://localhost:3000/images/083.png"
+	"imgurl" : "http://localhost:3000/images/083.png",
+	"type":"cute"
 }
 {
 	"charaid" : 84,
 	"name" : "［ネクスト☆ページ］荒木比奈",
-	"imgurl" : "http://localhost:3000/images/084.png"
+	"imgurl" : "http://localhost:3000/images/084.png",
+	"type":"cool"
 }
 {
 	"charaid" : 85,
 	"name" : "［ウサミン・ザ・シークレット］安部菜々",
-	"imgurl" : "http://localhost:3000/images/085.png"
+	"imgurl" : "http://localhost:3000/images/085.png",
+	"type":"cute"
 }
 {
 	"charaid" : 86,
 	"name" : "［うつつの華模様］塩見周子",
-	"imgurl" : "http://localhost:3000/images/086.png"
+	"imgurl" : "http://localhost:3000/images/086.png",
+	"type":"cool"
 }
 {
 	"charaid" : 87,
 	"name" : "［ソル・パライソ］大槻唯",
-	"imgurl" : "http://localhost:3000/images/087.png"
+	"imgurl" : "http://localhost:3000/images/087.png",
+	"type":"passion"
 }
 {
 	"charaid" : 88,
 	"name" : "［華ほころびる宴］小早川紗枝",
-	"imgurl" : "http://localhost:3000/images/088.png"
+	"imgurl" : "http://localhost:3000/images/088.png",
+	"type":"cute"
 }
 {
 	"charaid" : 89,
 	"name" : "［ことほぎの祈り］依田芳乃",
-	"imgurl" : "http://localhost:3000/images/089.png"
+	"imgurl" : "http://localhost:3000/images/089.png",
+	"type":"passion"
 }
 {
 	"charaid" : 90,
 	"name" : "［メイクミー・キスユー］赤城みりあ",
-	"imgurl" : "http://localhost:3000/images/090.png"
+	"imgurl" : "http://localhost:3000/images/090.png",
+	"type":"passion"
 }
 {
 	"charaid" : 91,
 	"name" : "［インサイト・エクステンド］八神マキノ",
-	"imgurl" : "http://localhost:3000/images/091.png"
+	"imgurl" : "http://localhost:3000/images/091.png",
+	"type":"cool"
 }
 {
 	"charaid" : 92,
 	"name" : "［ラブ ! ストレート］中野有香",
-	"imgurl" : "http://localhost:3000/images/092.png"
+	"imgurl" : "http://localhost:3000/images/092.png",
+	"type":"cute"
 }
 {
 	"charaid" : 93,
 	"name" : "［パレス・オブ・ファンタジア］二宮飛鳥",
-	"imgurl" : "http://localhost:3000/images/093.png"
+	"imgurl" : "http://localhost:3000/images/093.png",
+	"type":"cool"
 }
 {
 	"charaid" : 94,
@@ -471,105 +564,126 @@
 {
 	"charaid" : 95,
 	"name" : "［Ring♪Ring♪フィーリン］椎名法子",
-	"imgurl" : "http://localhost:3000/images/095.png"
+	"imgurl" : "http://localhost:3000/images/095.png",
+	"type":"cute"
 }
 {
 	"charaid" : 96,
 	"name" : "［ハイテンションスマッシュ］喜多見柚",
-	"imgurl" : "http://localhost:3000/images/096.png"
+	"imgurl" : "http://localhost:3000/images/096.png",
+	"type":"passion"
 }
 {
 	"charaid" : 97,
 	"name" : "［目をあけてみる夢］多田李衣菜",
-	"imgurl" : "http://localhost:3000/images/097.png"
+	"imgurl" : "http://localhost:3000/images/097.png",
+	"type":"cool"
 }
 {
 	"charaid" : 98,
 	"name" : "［ドラマティック・ナイト］五十嵐響子",
-	"imgurl" : "http://localhost:3000/images/098.png"
+	"imgurl" : "http://localhost:3000/images/098.png",
+	"type":"cute"
 }
 {
 	"charaid" : 99,
 	"name" : "［こころ、酔わせて］三船美優",
-	"imgurl" : "http://localhost:3000/images/099.png"
+	"imgurl" : "http://localhost:3000/images/099.png",
+	"type":"cool"
 }
 {
 	"charaid" : 100,
 	"name" : "［セクシーBANG☆BANG］片桐早苗",
-	"imgurl" : "http://localhost:3000/images/100.png"
+	"imgurl" : "http://localhost:3000/images/100.png",
+	"type":"passion"
 }
 {
 	"charaid" : 101,
 	"name" : "［SOUND A ROUND］松永涼",
-	"imgurl" : "http://localhost:3000/images/101.png"
+	"imgurl" : "http://localhost:3000/images/101.png",
+	"type":"cool"
 }
 {
 	"charaid" : 102,
 	"name" : "［出逢えた憧憬］関裕美",
-	"imgurl" : "http://localhost:3000/images/102.png"
+	"imgurl" : "http://localhost:3000/images/102.png",
+	"type":"cute"
 }
 {
 	"charaid" : 103,
 	"name" : "［エンド・オブ・ザ・ブルー］速水奏",
-	"imgurl" : "http://localhost:3000/images/103.png"
+	"imgurl" : "http://localhost:3000/images/103.png",
+	"type":"cool"
 }
 {
 	"charaid" : 104,
 	"name" : "［カム・ウィズミー ! ］乙倉悠貴",
-	"imgurl" : "http://localhost:3000/images/104.png"
+	"imgurl" : "http://localhost:3000/images/104.png",
+	"type":"cute"
 }
 {
 	"charaid" : 105,
 	"name" : "［サークル☆オブ☆フレンズ］城ヶ崎莉嘉",
-	"imgurl" : "http://localhost:3000/images/105.png"
+	"imgurl" : "http://localhost:3000/images/105.png",
+	"type":"passion"
 }
 {
 	"charaid" : 106,
 	"name" : "［ひみつの小夜曲］佐城雪美",
-	"imgurl" : "http://localhost:3000/images/106.png"
+	"imgurl" : "http://localhost:3000/images/106.png",
+	"type":"cool"
 }
 {
 	"charaid" : 107,
 	"name" : "［ポジティブパッション］日野茜",
-	"imgurl" : "http://localhost:3000/images/107.png"
+	"imgurl" : "http://localhost:3000/images/107.png",
+	"type":"passion"
 }
 {
 	"charaid" : 108,
 	"name" : "［ラブモリ☆パーリィー］藤本里奈",
-	"imgurl" : "http://localhost:3000/images/108.png"
+	"imgurl" : "http://localhost:3000/images/108.png",
+	"type":"cute"
 }
 {
 	"charaid" : 109,
 	"name" : "［ヨモスガラ・パーティー］白坂小梅",
-	"imgurl" : "http://localhost:3000/images/109.png"
+	"imgurl" : "http://localhost:3000/images/109.png",
+	"type":"cool"
 }
 {
 	"charaid" : 110,
 	"name" : "［レッツゴー☆パレード］姫川友紀",
-	"imgurl" : "http://localhost:3000/images/110.png"
+	"imgurl" : "http://localhost:3000/images/110.png",
+	"type":"passion"
 }
 {
 	"charaid" : 111,
 	"name" : "［ようせいのこ］遊佐こずえ",
-	"imgurl" : "http://localhost:3000/images/111.png"
+	"imgurl" : "http://localhost:3000/images/111.png",
+	"type":"cute"
 }
 {
 	"charaid" : 112,
 	"name" : "［ステップトゥーミライ］佐々木千枝",
-	"imgurl" : "http://localhost:3000/images/112.png"
+	"imgurl" : "http://localhost:3000/images/112.png",
+	"type":"cool"
 }
 {
 	"charaid" : 113,
 	"name" : "［こぶし・紅］村上巴",
-	"imgurl" : "http://localhost:3000/images/113.png"
+	"imgurl" : "http://localhost:3000/images/113.png",
+	"type":"passion"
 }
 {
 	"charaid" : 114,
 	"name" : "［エターナルブルーム］渋谷凛",
-	"imgurl" : "http://localhost:3000/images/114.png"
+	"imgurl" : "http://localhost:3000/images/114.png",
+	"type":"cool"
 }
 {
 	"charaid" : 115,
 	"name" : "［えにしの結び手］道明寺歌鈴",
-	"imgurl" : "http://localhost:3000/images/115.png"
+	"imgurl" : "http://localhost:3000/images/115.png",
+	"type":"cute"
 }
