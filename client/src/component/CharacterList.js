@@ -41,16 +41,22 @@ const CharacterList = ({ store }) => {
     }
 
     const typeCool = () => {
-
-    }
+        const item = characterArray.filter(character => (
+            character.type === "cool"
+        ))
+    };
 
     const typeCute = () => {
-
-    }
+        const item = characterArray.filter(character => (
+            character.type === "cute"
+        ))
+    };
 
     const typePassion = () => {
-
-    }
+        const item = characterArray.filter(character => (
+            character.type === "cute"
+        ))
+    };
 
 
 
@@ -63,9 +69,6 @@ const CharacterList = ({ store }) => {
         ? <h2>now loading</h2>
         :<div >
                 <button onClick={() => handleFetchData()}>fetch</button>
-                <button onClick={() => typeCool()}>Cool</button>
-                <button onClick={() => typeCute()}>Cute</button>
-                <button onClick={() => typePassion()}>Passhon</button>
                 <p>あなたは{Math.round(total/characterArray.length*1000)/10}%({total}/{characterArray.length})%のSSRを所持しています</p>
                     <GridList
                      cellHeight={200}
@@ -76,7 +79,7 @@ const CharacterList = ({ store }) => {
                         <GridTile
                          actionIcon={ <Checkbox labelStyle={{color: 'white'}} iconStyle={{fill: 'white'}} value={character.charaid} onTouchTap={() => countTotal()} onClick={() => countTotal()}/>}
                          title={character.name}
-                         key={character.type}
+                         key={character._id}
                          >
                             <Image src={character.imgurl} alt=""  /> 
                         </GridTile>

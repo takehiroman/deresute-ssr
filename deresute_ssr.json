@@ -688,3 +688,9 @@
 	"imgurl" : "http://localhost:3000/images/115.png",
 	"type":"cute"
 }
+{
+	"charaid" : 116,
+	"name" : "［FEEL SO FREE］木村夏樹",
+	"imgurl" : "http://localhost:3000/images/116.png",
+	"type":"passhon"
+}
