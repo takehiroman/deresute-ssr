@@ -694,3 +694,15 @@
 	"imgurl" : "http://localhost:3000/images/116.png",
 	"type":"passhon"
 }
+{
+	"charaid" : 117,
+	"name" : "［わきわきわんだほー］棟方愛海",
+	"imgurl" : "http://localhost:3000/images/117.png",
+	"type":"cute"
+}
+{
+	"charaid" : 118,
+	"name" : "［コマンドー・オブ・ステージ］大和亜季",
+	"imgurl" : "http://localhost:3000/images/118.png",
+	"type":"cool"
+}
