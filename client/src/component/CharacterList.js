@@ -21,7 +21,7 @@ const CharacterList = ({ store }) => {
     const total = $("input:checked").length;
 
     const handleFetchData = () => {
-        store.dispatch(requestData())
+        //store.dispatch(requestData())
         axios.get('/api/characters')
         .then(response => {
             const _characterArray = response.data
@@ -31,7 +31,10 @@ const CharacterList = ({ store }) => {
             console.error(new Error(err))
             store.dispatch(receiveDataFailed())
         })
+        
     }
+
+    
 
     const countTotal = () => {
         const elems = document.getElementsByTagName('input');
@@ -40,27 +43,6 @@ const CharacterList = ({ store }) => {
         }
     }
 
-    const typeCool = () => {
-        const item = characterArray.filter(character => (
-            character.type === "cool"
-        ))
-    };
-
-    const typeCute = () => {
-        const item = characterArray.filter(character => (
-            character.type === "cute"
-        ))
-    };
-
-    const typePassion = () => {
-        const item = characterArray.filter(character => (
-            character.type === "cute"
-        ))
-    };
-
-
-
-    
     return (
     <MuiThemeProvider>
     <div >
@@ -68,7 +50,7 @@ const CharacterList = ({ store }) => {
         isFetching
         ? <h2>now loading</h2>
         :<div >
-                <button onClick={() => handleFetchData()}>fetch</button>
+        {handleFetchData()}
                 <p>あなたは{Math.round(total/characterArray.length*1000)/10}%({total}/{characterArray.length})%のSSRを所持しています</p>
                     <GridList
                      cellHeight={200}
