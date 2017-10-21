@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import CharacterList from './CharacterList'
+import CharacterList from '../container'
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -11,7 +12,7 @@ class App extends Component {
         <p className="App-intro">
           デレステのSSR所持率出すやつ
         </p>
-          <CharacterList store={this.props.store} />
+          <CharacterList />
       </div>
     );
   }
