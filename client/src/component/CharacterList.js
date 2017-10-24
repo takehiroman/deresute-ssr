@@ -20,18 +20,16 @@ class CharacterList extends React.Component {
         this.props = props
     }
 
-    componentDidMount(){
+    async componentDidMount(){
         this.props.requestData()
-        axios.get('/api/characters')
-        .then(response => {
-            const _characterArray = response.data
-            console.log(_characterArray)
-            this.props.receiveDataSuccess(_characterArray)
-        })
-        .catch(err => {
-            console.error(new Error(err))
+        const response = await axios.get('/api/characters')
+        if(response.status !== 200){
             this.props.receiveDataFailed()
-        })
+            console.log("Error!!");
+            process.exit
+        }
+        this.props.receiveDataSuccess(response.data)
+
     }
     
 /*
